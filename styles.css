@@ -78,6 +78,42 @@ body {
 	padding: .5em 0;
 }
 
+.comment, .comment__header{
+	display: flex;
+}
+
+.comment{
+	padding: 0.5em 0.75em;
+	height: 3em;
+}
+
+.comment__text{
+	padding: 0 0 0 0.5em;
+}
+
+.comment > img{
+	border-radius: 50%;
+}
+
+.comment__header{
+	justify-content: center;
+}
+
+.comment__name, .comment__time{
+	padding: 0.3em 0.5em;
+}
+
+.comment__name{
+	font-weight: bold;
+}
+
+.comment__time{
+	font-weight: bold;
+	font-size: 0.9em;
+	color: rgba(15, 15, 15, 0.75);
+}
+
+
 .main__right{
     flex: .38;
 	margin: 0 0 0 4px;
